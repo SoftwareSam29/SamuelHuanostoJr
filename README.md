@@ -1,2 +1,2 @@
-# SamuelHuanostoJr
-MIT Portfolio Project
+# MIT Portfolio Project
+Samuel Huanosto Jr
