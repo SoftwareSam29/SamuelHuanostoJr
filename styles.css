@@ -1,0 +1,352 @@
+.responsive {
+    width:100%;
+    height:750px;
+}
+body {
+    contain:initial;
+    overflow-x: hidden;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+}
+
+
+#aboutMe .container {
+    margin: 0px;
+    height: 500px;
+}
+
+.text-muted {
+    font-size: large;
+    color: #777;
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #5296A5;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #5296A5;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #5296A5;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5296A5;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #598392;
+    color: #fff;
+    background-color: #598392;
+}
+
+
+
+
+
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+
+  
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
+body {
+	color: #5296A5;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	text-align: center;
+    height: 700px;
+}
+
+
+/* Header Styling*/
+header {
+    text-align: center;
+    color: #F7F7F7;
+    background-image: url(https://live.staticflickr.com/1938/44608840005_6f42c6b209_3k.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 60px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+  
+strong {
+    position: relative;
+}
+
+strong::before {
+    /* Highlight color */
+    background-color: #F0F7EE;
+
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 75%;
+    left: -2px;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-2deg);
+}
+
+
+/* About Me */
+.row1 {
+    height: 100px;
+    margin: 50px 100px;
+}
+
+.bio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bio-item-wrapper {
+    position: relative;
+    column-gap: 10px;
+    height: 350px;
+    width: 300px;
+}
+
+p .text-muted {
+   margin-top:30px;
+   height: 300px;
+   width: 120px; 
+}
+
+section {
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn .btn-secondary {
+    margin: 10px 0;
+}
+
+/* Skills Styles */
+section h2.section-heading {
+    color: #003049;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+section h2.section-subheading {
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    
+}
+
+.row2 {
+   height: 200px; 
+}
+
+.skills-heading {
+    margin-top: 20px;
+    text-transform: none;
+}
+
+body {
+    -webkit-tap-highlight-color: #92DCE5;
+}
+
+.skills-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Project Styles */
+.row3 {
+    height: 500px;
+}
+
+.project-items-wrapper {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.project-item-wrapper {
+    position:relative;
+}
+
+.project-img-background {
+    margin-top: 100px;
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    margin-top: 100px;
+    position:absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    text-align:center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.logo-wrapper img {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: #598392;
+}
+
+a {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+a:hover {
+    font-weight: 600;
+    color: #aec3b0;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+::-moz-selection {
+    text-shadow: none;
+    background: #5296a5;
+}
+
+::selection {
+    text-shadow: none;
+    background: #5296A5;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    -webkit-tap-highlight-color: #92DCE5;
+}
