@@ -6,4 +6,4 @@
 </p>
 <h2>Personal Website Link
 </h2>
-<a href="file:///Users/loviedhanjal/Codio%20Projects/Portfolio%20Project/Portfolio%20Project%20files/index.html"><strong>Sams Webpage</strong></a>
+<a href="http:///Users/loviedhanjal/Codio%20Projects/Portfolio%20Project/Portfolio%20Project%20files/index.html"><strong>Sams Webpage</strong></a>
